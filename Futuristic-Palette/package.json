@@ -1,0 +1,21 @@
+{
+    "name": "futuristic-color-theme",
+    "displayName": "futuristic-color-theme",
+    "description": "futuristic color for your IDE",
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "futuristic-color-theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/blue-color-theme.json"
+            }
+        ]
+    }
+}
